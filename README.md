@@ -6,4 +6,4 @@ Energy efficiency and thermal comfort levels are key attributes to be considered
 
 ## Dataset
 
-<div align=center><img src=https://github.com/JianqiaoMao/Interpretable-machine-learning-for-HVAC-predictive-control/blob/main/figures/table_dataset_description.png width=600 /></div>
+<div align=center><img src=https://github.com/JianqiaoMao/Interpretable-machine-learning-for-HVAC-predictive-control/blob/main/figures/table_dataset_description.png width=700 /></div>
