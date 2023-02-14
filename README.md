@@ -24,6 +24,11 @@ The figure below compares the finalized model’s predictions with the true room
 <div align=center><img src=https://github.com/JianqiaoMao/Interpretable-machine-learning-for-HVAC-predictive-control/blob/main/figures/performance.png
  width=800 /></div>
  
-To validate our proposed method, we also compare our predictive model’s performance with related studies [1][2] which have comparable settings and evaluation metrics
+To validate our proposed method, we also compare our predictive model’s performance with related studies [1][2] which have comparable settings and evaluation metrics. The table below shows that the proposed modeling method has a more satisfactory performance than the others for the short-term RT prediction. In terms of long-term RT prediction, our method also shows capability with certain performance decay, while the investigated work does not discuss it.
+
+<div align=center><img src=https://github.com/JianqiaoMao/Interpretable-machine-learning-for-HVAC-predictive-control/edit/main/README.md
+ width=600 /></div>
+
+
 
 
