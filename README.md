@@ -10,8 +10,20 @@ The data considered in this work was acquired from both indoor and outdoor senso
 
 <div align=center><img src=https://github.com/JianqiaoMao/Interpretable-machine-learning-for-HVAC-predictive-control/blob/main/figures/table_dataset_description.png width=800 /></div>
 
-## Process
+## Framework of data acquisition, processing and modeling phases
 
 The figure below depicts the framework adopted in this work from the data acquisition phase through to the interpretation of the machine learning model employed. The process starts with the collection of the data from different sensors including HVAC status indicators, as well as environmental data from indoor and outdoor sensors. After pre-processing the data and addressing challenges such as different sampling strategies and time misalignment, comprehensive Exploratory Data Analysis (EDA) is conducted to investigate the data distribution of the predictor and target variables, followed by stationarity and hidden pattern analysis. By recursively optimizing our feature engineering strategy based on knowledge discovery from the EDA process, we extract important information that is subsequently used in the predictive modeling phase.
 
 <div align=center><img src=https://github.com/JianqiaoMao/Interpretable-machine-learning-for-HVAC-predictive-control/blob/main/figures/process.png width=800 /></div>
+
+## Performance of Room Temperature Prediction
+
+The figure below compares the finalized model’s predictions with the true room temperature series over the whole period with a detailed plot on the validation and test sets. It is observed that the model successfully forecasts the trends as well as most fluctuations despite failures for some extreme values.
+
+
+<div align=center><img src=https://github.com/JianqiaoMao/Interpretable-machine-learning-for-HVAC-predictive-control/blob/main/figures/performance.png
+ width=800 /></div>
+ 
+To validate our proposed method, we also compare our predictive model’s performance with related studies [1][2] which have comparable settings and evaluation metrics
+
+
