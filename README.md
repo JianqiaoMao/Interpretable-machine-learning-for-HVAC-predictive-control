@@ -1,2 +1,2 @@
-# An-interpretable-machine-learning-based-method-for-room-temperature-prediction-in-a-non-domestic-bui
-An interpretable machine learning-based method for room temperature prediction in a non-domestic building
+# Interpretable machine learning for HVAC predictive control: A case-study based implementation
+Interpretable machine learning for HVAC predictive control: A case-study based implementation
