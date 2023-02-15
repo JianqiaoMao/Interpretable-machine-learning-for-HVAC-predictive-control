@@ -56,3 +56,18 @@ in this paper, we propose a new global interpretation technique called **Permuta
 7) The file folder **models** contains the fine-tuned regression models, including the XGBM and LSTM.
 
 8) The file folder **figures** contains the figures and tables shown in the readme file for demonstration.
+
+## Key depedent packages
+
+ * numpy 1.19.5
+ * pandas 1.1.5
+ * scikit-learn 0.24.2
+ * tensorflow 2.6.2
+ * xgboost 1.5.2
+ * seaborn 0.11.2
+ * matplotlib 3.3.4
+ * holidays 0.13
+ * scipy 1.5.4
+ * joblib 1.1.0
+ * lime 0.2.0.1
+ * statsmodels 0.12.2
