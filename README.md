@@ -40,3 +40,19 @@ in this paper, we propose a new global interpretation technique called **Permuta
 <div align=center><img src=https://github.com/JianqiaoMao/Interpretable-machine-learning-for-HVAC-predictive-control/blob/main/figures/PF-FRA.png width=800 /></div>
 
 ## File Description
+
+1) The .py file **final_model_and_interpretation.py** is the core code, including the data loading, pre-processing, feature engineering, modeling and interpretation.
+
+2) The .py file **EDA.py** is the code for Exploratory Data Analysis.
+
+3) The .py file **PFFRA.py** is packaged module that implement the proposed PF-FRA algorithm, which should be imported to run the core code.
+
+4) The .py file **LSTM_RT.py** is the code to use LSTM as the predictive model.
+
+5) The .py file **XGBM_RT_MVA_window_size.py** is the code to select the best window size of moving average filter.
+
+6) The .py file **XGBM_RT_how_long_it_can_pred.py** is the code to compare the performance in predicting different timestamp-ahead room temperatures.
+
+7) The file folder **models** contains the fine-tuned regression models, including the XGBM and LSTM.
+
+8) The file folder **figures** contains the figures and tables shown in the readme file for demonstration.
