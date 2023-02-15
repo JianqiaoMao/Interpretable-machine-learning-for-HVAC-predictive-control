@@ -12,8 +12,6 @@ Energy efficiency and thermal comfort levels are key attributes to be considered
 
 Please use one of the following to cite the code of this repository.
 
-.. code-block:: bibtex
-
 @article{mao2021interpreting,
   title={Interpreting machine learning models for room temperature prediction in non-domestic buildings},
   author={Mao, Jianqiao and Ryan, Grammenos},
