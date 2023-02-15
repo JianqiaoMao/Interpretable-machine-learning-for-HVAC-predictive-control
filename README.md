@@ -57,7 +57,7 @@ in this paper, we propose a new global interpretation technique called **Permuta
 
 8) The file folder **figures** contains the figures and tables shown in the readme file for demonstration.
 
-## Key depedent packages
+## Key dependencies
 
  * numpy 1.19.5
  * pandas 1.1.5
