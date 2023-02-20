@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is the core code repository for the submitted paper [Title] (Manuscript ID STBE-0220-2022) at **Science and Technology for the Built Environment**. Note that the used dataset is not shared due to the fact that it is a data property of General Technology Ltd, Athens, Greece.
+This is the core code repository for the submitted paper [Title] (Manuscript ID STBE-0220-2022) at **Science and Technology for the Built Environment**. The dataset used in this work cannot unfortunately be made publicly available due to privacy and third party restrictions.
 
 #### Abstract 
 
