@@ -2,8 +2,6 @@
 
 ## Overview
 
-This is the core code repository for the submitted paper [Title] (Manuscript ID STBE-0220-2022) at **Science and Technology for the Built Environment**. The dataset used in this work cannot unfortunately be made publicly available due to privacy and third party restrictions.
-
 #### Abstract 
 
 Energy efficiency and thermal comfort levels are key attributes to be considered in the design and implementation of a Heating, Ventilation and Air Conditioning (HVAC) system. With the increased availability of Internet of Things (IoT) devices, it is now possible to continuously monitor multiple variables that influence a user’s thermal comfort and the system’s energy efficiency, thus acting pre-emptively to optimize these factors. To this end, this paper reports on a case study with a two-fold aim; first, to analyze the performance of a conventional HVAC system through data analytics; secondly, to explore the use of interpretable machine learning techniques for predictive control with the vision of realizing a trusted and autonomous HVAC system. A new Interpretable Machine Learning (IML) algorithm called Permutation Feature-based Frequency Response Analysis (PF-FRA) is also proposed to quantify the contribution of each predictor in the frequency domain. Results demonstrate that the proposed model can generate accurate forecasts of short-term and long-term Room Temperature (RT) levels by taking into account historical RT information, as well as additional environmental and time-series features. Our proposed model achieves 1.73\% and 4.01\% of Mean Absolute Percentage Error (MAPE) for 1-hour and 8-hour ahead RT prediction, respectively. Tools such as surrogate models and Shapley graphs are employed to explain the model's global and local behaviors with a view to making the machine-made control decision trusted and reliable.
@@ -21,6 +19,8 @@ Please use one of the following to cite the code of this repository.
 ```
 
 ## Dataset
+
+The dataset used in this work cannot unfortunately be made publicly available due to privacy and third party restrictions.
 
 The data considered in this work was acquired from both indoor and outdoor sensors and system indicators of an HVAC system installed in an 11-story commercial office building in Athens, Greece between December 2017 and September 2020. The building did not employ any other sensors except the ones provided in the dataset. It is worth highlighting that this is not a new build and was constructed in the 1990s with some refurbishments in the HVAC system over the past decades. It is worth noting that for the results presented in this work, the data observations from February 29th, 2020 onwards are excluded from the analysis to avoid the inconsistency in user patterns that inevitably occurred during the breakout of the COVID-19 pandemic. With this in mind, the overall dataset was split into the following subsets: a training set covering the period from December 8th, 2017 to June 30th, 2019; a validation set covering the period from July 1st, 2019 to October 10th, 2019; and a test set covering the period from October 11th, 2019 to February 29th, 2020.
 
