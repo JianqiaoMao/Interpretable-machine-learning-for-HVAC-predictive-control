@@ -51,6 +51,21 @@ in this paper, we propose a new global interpretation technique called **Permuta
 
 <div align=center><img src=https://github.com/JianqiaoMao/Interpretable-machine-learning-for-HVAC-predictive-control/blob/main/figures/PF-FRA.png width=800 /></div>
 
+Please note you may need to install PFFRA lib. to run the code in this repository. For PFFRA lib., please refer [here](https://github.com/JianqiaoMao/PFFRA).
+
+We currently offer seamless installation with `pip`. 
+
+Simply:
+```
+pip install PFFRA
+```
+
+Alternatively, download the current distribution of the package, and run:
+```
+pip install .
+```
+in the root directory of the decompressed package.
+
 ## File Description
 
 1) The .py file **final_model_and_interpretation.py** is the core code, including the data loading, pre-processing, feature engineering, modeling and interpretation.
@@ -71,6 +86,7 @@ in this paper, we propose a new global interpretation technique called **Permuta
 
 ## Key dependencies
 
+ * PFFRA 0.1.2
  * numpy 1.19.5
  * pandas 1.1.5
  * scikit-learn 0.24.2
