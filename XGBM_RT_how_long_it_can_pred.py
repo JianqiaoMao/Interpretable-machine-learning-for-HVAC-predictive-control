@@ -351,7 +351,7 @@ plt.legend(loc="lower right")
 plt.title("MAE & MSE of XGBM Regressor's Prediction With Different Predicting Time Intervals")
 
 
-#%%
+#%% Result plotting
 fig = plt.figure(figsize=(10, 7))
 ax1 = fig.add_subplot(111)
 ax1.plot([i/6 for i in test_time_length], mae_test_ot, label="MAE", marker="o", c="royalblue", lw=3)

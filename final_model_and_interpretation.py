@@ -553,8 +553,8 @@ for i in range(len(weight)):
 
 # PF-FRA
 
-pffra = PFFRA.PF_FRA(y = y_trainVal, X = X_trainVal, model = gbm_reg, feature_name="RT_1h_HistoricalMVA", sampling_intervals=300)
-pffra.show(end_position = 700, rename_feature='MVART')
+pffra = PFFRA.PermFeatureFreqRespoAnalysis(y = y_trainVal, X = X_trainVal, model = gbm_reg, interested_feature_index = 10)
+pffra.show(sample_rate = 1/600, mode = 'mean', rename_feature = "MVART")
 
 # PDP
 from sklearn.inspection import plot_partial_dependence
