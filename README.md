@@ -11,6 +11,20 @@ Energy efficiency and thermal comfort levels are key attributes to be considered
 Please use one of the following to cite the code of this repository.
 
 ```
+@article{mao2023data,
+  title={Data analysis and interpretable machine learning for HVAC predictive control: A case-study based implementation},
+  author={Mao, Jianqiao and Grammenos, Dr Ryan and Karagiannis, Konstantinos},
+  journal={Science and Technology for the Built Environment},
+  number={just-accepted},
+  pages={1--39},
+  year={2023},
+  publisher={Taylor \& Francis}
+}
+```
+
+Or,
+
+```
 @article{mao2021interpreting,
   title={Interpreting machine learning models for room temperature prediction in non-domestic buildings},
   author={Mao, Jianqiao and Ryan, Grammenos},
