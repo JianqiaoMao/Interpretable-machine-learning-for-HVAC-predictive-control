@@ -63,7 +63,7 @@ To validate our proposed method, we also compare our predictive model’s perfor
 
 in this paper, we propose a new global interpretation technique called **Permutation Feature-based Frequency Response Analysis (PF-FRA)** to investigate the features' contribution in the frequency domain. By viewing the features' effects through spectrum analysis, the time-series model can be explained in the frequency domain. This spectrum enables us to identify the features that contribute to the high-frequency components, which in turn lead to fluctuations, as well as the features that contribute to the DC component, which determines the overall trend. By applying the proposed PF-FRA to study how the critical historical RT feature (MVART) boosts the model so significantly, we compare the XGBM regressor’s frequency responses (magnitude only) on the training and validation set with one of the MVART and IOTS features valid in the figure below:
 
-<div align=center><img src=https://github.com/JianqiaoMao/Interpretable-machine-learning-for-HVAC-predictive-control/blob/main/figures/PF-FRA.png width=800 /></div>
+<div align=center><img src=https://github.com/JianqiaoMao/Interpretable-machine-learning-for-HVAC-predictive-control/blob/main/figures/PF-FRA_res.png width=800 /></div>
 
 Please note you may need to install PFFRA lib. to run the code in this repository. For PFFRA lib., please refer [here](https://github.com/JianqiaoMao/PFFRA).
 
