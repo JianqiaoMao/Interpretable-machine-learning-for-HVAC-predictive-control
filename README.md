@@ -13,10 +13,11 @@ Please use one of the following to cite the code of this repository.
 ```
 @article{mao2023data,
   title={Data analysis and interpretable machine learning for HVAC predictive control: A case-study based implementation},
-  author={Mao, Jianqiao and Grammenos, Dr Ryan and Karagiannis, Konstantinos},
+  author={Mao, Jianqiao and Grammenos, Ryan and Karagiannis, Konstantinos},
   journal={Science and Technology for the Built Environment},
-  number={just-accepted},
-  pages={1--39},
+  volume={29},
+  number={7},
+  pages={698--718},
   year={2023},
   publisher={Taylor \& Francis}
 }
